@@ -31,6 +31,7 @@ h2 {
 }
 
 .hero-wrapper {
+  position: relative;
   background: radial-gradient(
     85.37% 120.12% at 50.04% -11.47%,
     #014959 0%,
@@ -41,4 +42,11 @@ h2 {
 button,
 a {
   cursor: pointer;
+}
+
+canvas {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.3;
 }
