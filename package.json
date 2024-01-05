@@ -1,0 +1,39 @@
+{
+  "name": "devcore",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://github.com/Alexuber/devcore",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexuber/devcore"
+  },
+  "keywords": [],
+  "author": "Anatolii Poboiskyi <alexuberbuber@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexuber/devcore/issues"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "inputmask": "^5.0.8",
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "events": "^3.3.0",
+    "os-browserify": "^0.3.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "path-browserify": "^1.0.1",
+    "posthtml-include": "^1.7.4",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}

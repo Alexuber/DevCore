@@ -1,0 +1,26 @@
+{
+  "header_nav_main": {
+    "ua": "Головна",
+    "ru": "Главная"
+  },
+  "header_nav_products": {
+    "ua": "Продукція",
+    "ru": "Продукция"
+  },
+  "header_nav_about-us": {
+    "ua": "Про нас",
+    "ru": "О нас"
+  },
+  "header_nav_benefits": {
+    "ua": "Переваги",
+    "ru": "Преимущества"
+  },
+  "header_nav_partners": {
+    "ua": "Партнери",
+    "ru": "Партнеры"
+  },
+  "header_nav_contacts": {
+    "ua": "Контакти",
+    "ru": "Контакты"
+  }
+}
