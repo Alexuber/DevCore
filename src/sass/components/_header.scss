@@ -1,0 +1,22 @@
+header {
+  outline: 2px solid rgb(0, 255, 98);
+  outline-offset: -2px;
+}
+
+header .container {
+  padding-top: 16px;
+}
+
+.langBtnWrapper {
+  display: none;
+  @include media-min(laptop) {
+    display: block;
+  }
+}
+
+.headerNav {
+  display: none;
+  @include media-min(laptop) {
+    display: block;
+  }
+}

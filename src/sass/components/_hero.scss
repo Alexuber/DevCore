@@ -1,0 +1,56 @@
+.hero {
+  height: 330px;
+  text-align: center;
+  position: relative;
+  padding-top: 50px;
+}
+
+.hero-svg {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.hero-title {
+  color: #fff;
+
+  font-family: Venryn Sans;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1;
+}
+
+.hero-desc {
+  color: #fff;
+  font-family: Sabir Mono;
+  font-size: 7px;
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1;
+  width: 151px;
+}
+
+.contact-btn {
+  padding: 4px 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 67px;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 69%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1;
+  width: 65px;
+  height: 20px;
+  font-size: 7px;
+  background-color: transparent;
+  color: #fff;
+}

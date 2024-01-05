@@ -4,17 +4,25 @@
   padding-left: 16px;
   padding-right: 16px;
 
+  outline: 2px solid red;
+  outline-offset: -2px;
+  @include media-min(mobile) {
+    width: 375px;
+  }
+
   @include media-min(tablet) {
-    max-width: 1024px;
-    padding-left: 40px;
-    padding-right: 40px;
+    width: 768px;
+  }
+
+  @include media-min(laptop) {
+    width: 1024px;
   }
 
   @include media-min(desktop) {
-    max-width: 1440px;
+    width: 1440px;
   }
 
   @include media-min(fullHD) {
-    max-width: 1920px;
+    width: 1920px;
   }
 }
