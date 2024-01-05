@@ -2,20 +2,20 @@
   "name": "devcore",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/Alexuber/devcore",
+  "homepage": "https://github.com/Alexuber/DevCore",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alexuber/devcore"
+    "url": "git+https://github.com/Alexuber/DevCore"
   },
   "keywords": [],
   "author": "Anatolii Poboiskyi <alexuberbuber@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Alexuber/devcore/issues"
+    "url": "https://github.com/Alexuber/DevCore/issues"
   },
   "dependencies": {
     "dotenv": "^16.3.1",
