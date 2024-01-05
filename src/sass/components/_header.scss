@@ -1,22 +1,90 @@
-header {
-  outline: 2px solid rgb(0, 255, 98);
-  outline-offset: -2px;
+header .container {
+  padding: 16px;
+
+  @include media-min(tablet) {
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  @include media-min(desktop) {
+    padding: 20px 40px;
+  }
+  @include media-min(fullHD) {
+    padding: 32px 48px;
+  }
 }
 
-header .container {
-  padding-top: 16px;
+.logo-icon {
+  @include media-min(tablet) {
+    width: 63px;
+    height: 37px;
+  }
+  @include media-min(laptop) {
+    width: 77px;
+    height: 45px;
+  }
+  @include media-min(desktop) {
+    width: 115px;
+    height: 67px;
+  }
+  @include media-min(fullHD) {
+    width: 170px;
+    height: 100px;
+  }
 }
 
 .langBtnWrapper {
   display: none;
-  @include media-min(laptop) {
+  @include media-min(tablet) {
     display: block;
   }
 }
 
 .headerNav {
   display: none;
-  @include media-min(laptop) {
+  @include media-min(tablet) {
     display: block;
   }
+}
+
+.headerNav-link {
+  font-size: 14px;
+  &:not(:last-child) {
+    margin-right: 40px;
+  }
+  color: #fff;
+  @include media-min(laptop) {
+    font-size: 16px;
+  }
+  @include media-min(desktop) {
+    font-size: 18px;
+  }
+  @include media-min(fullHD) {
+    font-size: 27px;
+  }
+}
+
+.langBtn {
+  font-size: 14px;
+
+  background-color: transparent;
+  color: #fff;
+  &:not(:last-child) {
+    margin-right: 6px;
+  }
+  @include media-min(laptop) {
+    font-size: 16px;
+  }
+  @include media-min(desktop) {
+    font-size: 18px;
+  }
+  @include media-min(fullHD) {
+    font-size: 27px;
+  }
+}
+
+.langBtn--active {
+  text-decoration: underline;
 }

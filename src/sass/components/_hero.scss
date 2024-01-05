@@ -3,13 +3,47 @@
   text-align: center;
   position: relative;
   padding-top: 50px;
+  @include media-min(tablet) {
+    height: 440px;
+  }
+  @include media-min(laptop) {
+    height: 710px;
+  }
+  @include media-min(desktop) {
+    height: 1135px;
+  }
+  @include media-min(fullHD) {
+    height: 1300px;
+  }
 }
 
 .hero-svg {
+  opacity: 0.5;
   position: absolute;
   top: 0;
   left: 50%;
   transform: translate(-50%);
+
+  @include media-min(tablet) {
+    top: -55px;
+    width: 450px;
+    height: 390px;
+  }
+  @include media-min(laptop) {
+    top: -69px;
+    width: 675px;
+    height: 585px;
+  }
+  @include media-min(desktop) {
+    top: -69px;
+    width: 1080px;
+    height: 935px;
+  }
+  @include media-min(desktop) {
+    top: -130px;
+    width: 1296px;
+    height: 1020px;
+  }
 }
 
 .hero-title {
@@ -19,10 +53,27 @@
   font-size: 24px;
   font-weight: 600;
   position: absolute;
-  top: 23%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%);
   z-index: 1;
+
+  @include media-min(tablet) {
+    font-size: 36px;
+    top: 15%;
+  }
+  @include media-min(laptop) {
+    font-size: 54px;
+    top: 16%;
+  }
+  @include media-min(desktop) {
+    font-size: 81px;
+    top: 18%;
+  }
+  @include media-min(fullHD) {
+    font-size: 97px;
+    top: 14%;
+  }
 }
 
 .hero-desc {
@@ -35,6 +86,29 @@
   transform: translate(-50%);
   z-index: 1;
   width: 151px;
+
+  @include media-min(tablet) {
+    font-size: 11px;
+    top: 35%;
+    width: 240px;
+  }
+
+  @include media-min(laptop) {
+    width: 370px;
+    font-size: 17px;
+    top: 35%;
+  }
+  @include media-min(desktop) {
+    width: 565px;
+    font-size: 26px;
+    top: 37%;
+  }
+
+  @include media-min(fullHD) {
+    width: 825px;
+    font-size: 31px;
+    top: 33%;
+  }
 }
 
 .contact-btn {
@@ -53,4 +127,77 @@
   font-size: 7px;
   background-color: transparent;
   color: #fff;
+
+  @include media-min(tablet) {
+    width: 98px;
+    height: 30px;
+    font-size: 11px;
+    top: 65%;
+  }
+  @include media-min(laptop) {
+    width: 150px;
+    height: 45px;
+    font-size: 17px;
+    top: 62%;
+  }
+  @include media-min(desktop) {
+    width: 225px;
+    height: 68px;
+    font-size: 26px;
+    top: 66%;
+  }
+
+  @include media-min(fullHD) {
+    width: 275px;
+    height: 98px;
+    font-size: 31px;
+    top: 57%;
+  }
+}
+
+// animation
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-300%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(300%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.rotate {
+  animation: rotate 2s linear forwards;
+}
+
+.slide-in-left,
+.slide-in-right {
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.slide-in-left {
+  animation: slideInLeft 2s ease-in-out forwards 2s;
+}
+
+.slide-in-right {
+  animation: slideInRight 2s ease-in-out forwards 2s;
 }
