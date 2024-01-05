@@ -1,1 +1,1 @@
-
+import './js/network-animation';

@@ -1,4 +1,10 @@
+.header {
+  position: relative;
+  z-index: 10;
+}
+
 header .container {
+  z-index: 10;
   padding: 16px;
 
   @include media-min(tablet) {

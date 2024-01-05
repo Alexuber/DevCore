@@ -17,6 +17,10 @@
   }
 }
 
+.hero .conatiner {
+  z-index: 100;
+}
+
 .hero-svg {
   opacity: 0.5;
   position: absolute;
@@ -200,4 +204,11 @@
 
 .slide-in-right {
   animation: slideInRight 2s ease-in-out forwards 2s;
+}
+
+.network-animation {
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
