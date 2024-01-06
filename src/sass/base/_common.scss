@@ -31,9 +31,9 @@ h2 {
 }
 
 .hero-wrapper {
-  @include media-max(laptop) {
-    height: 100vh;
-  }
+  // @include media-max(laptop) {
+  //   height: 100vh;
+  // }
   height: 100%;
   position: relative;
   background: radial-gradient(

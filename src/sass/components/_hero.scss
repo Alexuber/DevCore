@@ -3,6 +3,10 @@
   text-align: center;
   position: relative;
   padding-top: 50px;
+
+  @media screen and (min-width: 475px) {
+    height: 400px;
+  }
   @include media-min(tablet) {
     height: 440px;
   }
@@ -29,6 +33,7 @@
   transform: translate(-50%);
 
   @media screen and (min-width: 475px) {
+    top: -13%;
     width: 400px;
     height: auto;
   }
@@ -39,7 +44,7 @@
     height: 390px;
   }
   @include media-min(laptop) {
-    top: -69px;
+    top: -8%;
     width: 675px;
     height: 585px;
   }
@@ -69,7 +74,7 @@
 
   @media screen and (min-width: 475px) {
     font-size: 32px;
-    top: 27%;
+    top: 15%;
   }
 
   @include media-min(tablet) {
@@ -78,7 +83,7 @@
   }
   @include media-min(laptop) {
     font-size: 54px;
-    top: 16%;
+    top: 18%;
   }
   @include media-min(desktop) {
     font-size: 81px;
@@ -104,7 +109,7 @@
   @media screen and (min-width: 475px) {
     font-size: 14px;
     width: 305px;
-    top: 51%;
+    top: 34%;
   }
 
   @include media-min(tablet) {
@@ -116,7 +121,7 @@
   @include media-min(laptop) {
     width: 370px;
     font-size: 17px;
-    top: 35%;
+    top: 36%;
   }
   @include media-min(desktop) {
     width: 565px;
@@ -152,7 +157,7 @@
     font-size: 9px;
     width: 77px;
     height: 24px;
-    top: 89%;
+    top: 63%;
   }
 
   @include media-min(tablet) {
@@ -165,7 +170,7 @@
     width: 150px;
     height: 45px;
     font-size: 17px;
-    top: 62%;
+    top: 64%;
   }
   @include media-min(desktop) {
     width: 225px;

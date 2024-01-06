@@ -1,19 +1,186 @@
-// .icon-wrapper {
-//   width: 48px;
-//   height: 48px;
-//   border-radius: 16px;
-//   background: #e0f4f5;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-// }
 .benefits {
   padding-top: 32px;
   padding-bottom: 32px;
+
+  @include media-min(desktop) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  @include media-min(fullHD) {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
 }
 
 .benefit-icon {
   border-radius: 16px;
   background: #e0f4f5;
   padding: 10px;
+  @include media-min(tablet) {
+    width: 85px;
+    height: 85px;
+  }
+  @include media-min(laptop) {
+    width: 110px;
+    height: 110px;
+  }
+  @include media-min(desktop) {
+    width: 155px;
+    height: 155px;
+  }
+  @include media-min(fullHD) {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.benefits-title {
+  font-family: Venryn Sans;
+  font-size: 22px;
+  line-height: normal;
+  text-align: right;
+  margin-bottom: 32px;
+
+  @include media-min(tablet) {
+    margin-right: 50px;
+    font-size: 28px;
+  }
+
+  @include media-min(laptop) {
+    margin-right: 175px;
+    font-size: 30px;
+  }
+
+  @include media-min(desktop) {
+    margin-right: 220px;
+    font-size: 44px;
+  }
+  @include media-min(fullHD) {
+    margin-right: 340px;
+    font-size: 64px;
+  }
+}
+
+.benefit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  &:not(:last-child) {
+    margin-bottom: 32px;
+  }
+
+  @media screen and (min-width: 475px) {
+    gap: 30px;
+  }
+  @include media-min(tablet) {
+    gap: 45px;
+    &:not(:last-child) {
+      margin-bottom: 34px;
+    }
+  }
+  @include media-min(laptop) {
+    width: 80%;
+    gap: 60px;
+
+    &:not(:last-child) {
+      margin-bottom: 38px;
+    }
+  }
+  @include media-min(desktop) {
+    gap: 75px;
+
+    &:not(:last-child) {
+      margin-bottom: 54px;
+    }
+  }
+  @include media-min(fullHD) {
+    gap: 85px;
+    &:not(:last-child) {
+      margin-bottom: 80px;
+    }
+  }
+}
+
+.benefit-title {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+
+  @include media-min(tablet) {
+    font-size: 22px;
+  }
+  @include media-min(laptop) {
+    font-size: 28px;
+  }
+  @include media-min(desktop) {
+    font-size: 36px;
+  }
+  @include media-min(fullHD) {
+    font-size: 50px;
+  }
+}
+
+.benefit-desc {
+  font-family: Sabir Mono;
+  font-size: 12px;
+  line-height: 100%;
+
+  @include media-min(tablet) {
+    font-size: 18px;
+  }
+  @include media-min(laptop) {
+    font-size: 24px;
+  }
+  @include media-min(desktop) {
+    font-size: 26px;
+  }
+  @include media-min(fullHD) {
+    font-size: 38px;
+  }
+}
+
+.benefit-wrapper {
+  width: 205px;
+
+  @media screen and (min-width: 475px) {
+    width: 250px;
+  }
+  @include media-min(tablet) {
+    width: 420px;
+  }
+  @include media-min(desktop) {
+    width: 600px;
+  }
+  @include media-min(fullHD) {
+    width: 800px;
+  }
+}
+
+.benefits .container {
+  position: relative;
+}
+.left-decor {
+  display: none;
+  @include media-min(laptop) {
+    display: block;
+  }
+  position: absolute;
+  top: 3%;
+  left: 0;
+  width: 45%;
+  height: 105%;
+}
+
+.right-decor {
+  display: none;
+  @include media-min(laptop) {
+    display: block;
+  }
+  position: absolute;
+  top: -3%;
+  right: 0;
+  width: 45%;
+  height: 105%;
 }
