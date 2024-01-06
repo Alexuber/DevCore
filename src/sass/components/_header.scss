@@ -35,6 +35,14 @@ header .container {
   }
 }
 
+.logo-link {
+  z-index: 10;
+}
+
+.headerNav-link {
+  z-index: 10;
+}
+
 .langBtnWrapper {
   display: none;
   @include media-min(tablet) {
@@ -68,6 +76,7 @@ header .container {
 
 .langBtn {
   font-size: 14px;
+  z-index: 10;
 
   background-color: transparent;
   color: #fff;
