@@ -1,10 +1,4 @@
-.header {
-  position: relative;
-  z-index: 10;
-}
-
 header .container {
-  z-index: 10;
   padding: 16px;
 
   @include media-min(tablet) {
@@ -15,10 +9,10 @@ header .container {
     justify-content: space-between;
   }
   @include media-min(desktop) {
-    padding: 20px 40px;
+    padding: 20px 90px;
   }
   @include media-min(fullHD) {
-    padding: 32px 48px;
+    padding: 32px 110px;
   }
 }
 
@@ -28,16 +22,16 @@ header .container {
     height: 37px;
   }
   @include media-min(laptop) {
-    width: 77px;
-    height: 45px;
+    width: 51px;
+    height: 30px;
   }
   @include media-min(desktop) {
-    width: 115px;
-    height: 67px;
+    width: 76px;
+    height: 44px;
   }
   @include media-min(fullHD) {
-    width: 170px;
-    height: 100px;
+    width: 110px;
+    height: 66px;
   }
 }
 
