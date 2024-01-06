@@ -39,11 +39,8 @@ header .container {
   z-index: 10;
 }
 
-.headerNav-link {
-  z-index: 10;
-}
-
 .langBtnWrapper {
+  z-index: 10;
   display: none;
   @include media-min(tablet) {
     display: block;
@@ -52,6 +49,7 @@ header .container {
 
 .headerNav {
   display: none;
+  z-index: 10;
   @include media-min(tablet) {
     display: block;
   }
@@ -76,7 +74,6 @@ header .container {
 
 .langBtn {
   font-size: 14px;
-  z-index: 10;
 
   background-color: transparent;
   color: #fff;
