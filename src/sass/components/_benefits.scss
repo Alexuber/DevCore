@@ -36,29 +36,21 @@
 }
 
 .benefits-title {
-  font-family: Venryn Sans;
-  font-size: 22px;
-  line-height: normal;
   text-align: right;
-  margin-bottom: 32px;
 
   @include media-min(tablet) {
-    margin-right: 50px;
-    font-size: 28px;
+    margin-right: 90px;
   }
 
   @include media-min(laptop) {
     margin-right: 175px;
-    font-size: 30px;
   }
 
   @include media-min(desktop) {
     margin-right: 220px;
-    font-size: 44px;
   }
   @include media-min(fullHD) {
     margin-right: 340px;
-    font-size: 64px;
   }
 }
 
@@ -123,6 +115,7 @@
 }
 
 .benefit-desc {
+  text-align: justify;
   font-family: Sabir Mono;
   font-size: 12px;
   line-height: 100%;
