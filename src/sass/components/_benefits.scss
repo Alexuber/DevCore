@@ -2,9 +2,9 @@
   padding-top: 32px;
   padding-bottom: 32px;
 
-  @include media-min(desktop) {
-    padding-top: 60px;
-    padding-bottom: 60px;
+  @include media-min(laptop) {
+    padding-top: 90px;
+    padding-bottom: 90px;
   }
 
   @include media-min(fullHD) {
@@ -160,10 +160,10 @@
     display: block;
   }
   position: absolute;
-  top: 3%;
+  top: 2%;
   left: 0;
   width: 45%;
-  height: 105%;
+  height: 102%;
 }
 
 .right-decor {
