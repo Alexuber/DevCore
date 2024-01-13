@@ -73,6 +73,8 @@
 <path fill="#fff" style="fill: var(--color3, #fff)" d="M15.687 10.13l2.086 2.097-2.086 2.097-2.086-2.097 2.087-2.097z"></path>
 <path fill="#fff" style="fill: var(--color3, #fff)" d="M9.145 12.204l5.439-5.466v2.384l-3.066 3.082 3.066 3.082v2.384l-5.439-5.466z"></path>
 <path fill="#fff" style="fill: var(--color3, #fff)" d="M16.725 17.742l5.51-5.538-5.51-5.538v2.384l3.138 3.153-3.138 3.154v2.384z"></path>
+</symbol><symbol id="icon-next" viewBox="0 0 17 32">
+<path d="M1.982 0.3l15.085 15.701-15.085 15.701-1.982-2.178 12.883-13.524-12.883-13.524 1.982-2.178z"></path>
 </symbol>
 </defs>
 </svg>

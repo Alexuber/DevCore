@@ -73,3 +73,23 @@ canvas {
     font-size: 64px;
   }
 }
+
+section {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  @include media-min(laptop) {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  @include media-min(desktop) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  @include media-min(fullHD) {
+    padding-top: 160px;
+    padding-bottom: 160px;
+  }
+}
