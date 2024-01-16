@@ -1,7 +1,7 @@
 const swiper1 = new Swiper('.productsSwiper', {
   loop: true,
   spaceBetween: 16,
-  slidesPerView: 3,
+  slidesPerView: 5,
   speed: 2000,
   autoplay: {
     delay: 5000,
@@ -10,13 +10,10 @@ const swiper1 = new Swiper('.productsSwiper', {
   direction: 'horizontal',
   breakpoints: {
     360: {
-      slidesPerView: 3,
-    },
-    501: {
-      slidesPerView: 3,
+      slidesPerView: 5,
     },
     700: {
-      slidesPerView: 5,
+      slidesPerView: 7,
       spaceBetween: 20,
     },
     1024: {
