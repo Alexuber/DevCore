@@ -3,8 +3,8 @@
   margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
-  outline: 2px solid red;
-  outline-offset: -2px;
+  // outline: 2px solid red;
+  // outline-offset: -2px;
   @include media-min(mobile) {
     width: 375px;
   }
@@ -26,7 +26,7 @@
   }
 }
 
-section {
-  outline: 2px solid rgb(4, 255, 88);
-  outline-offset: -2px;
-}
+// section {
+//   outline: 2px solid rgb(4, 255, 88);
+//   outline-offset: -2px;
+// }
